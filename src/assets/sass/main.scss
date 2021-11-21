@@ -1,0 +1,33 @@
+/**
+ * Main Sass file
+ */
+
+@use 'sass:math';
+
+
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins/media-queries';
+ 
+// Base
+@import 'base/reset';
+ 
+// Components
+@import 'components/form';
+@import 'components/toast';
+@import 'components/hero';
+@import 'components/features';
+@import 'components/account';
+
+ 
+// Pages
+@import 'pages/login';
+@import 'pages/dashboard';
+
+// Layout
+@import 'layout/base';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+ 

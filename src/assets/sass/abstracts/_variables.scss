@@ -1,0 +1,40 @@
+/**
+ * Variables
+ */
+
+
+
+
+
+
+// Breakpoint
+$breakpoints: (
+    'sm':   640px,
+    'md':   768px,
+    'lg':   1024px,
+    'xl':   1280px,
+    '2xl':  1536px
+    ) !default;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$secondary: #42b983;
+$text-color: #2c3e50;
+
+$gray-100: #FAFAFA;
+$gray-200: #F5F5F5;
+$gray-300: #EEEEEE;
+$gray-400: #e0e0e0;
+$gray-500: #bdbdbd;
+$gray-600: #9e9e9e;
+$gray-700: #757575;
+$gray-800: #616161;
+$gray-900: #424242;
+
+$primary: #00bc77;//#42b983
+$primary-400: lighten($primary, 5);
+$primary-500: $primary;
+$primary-600: darken($primary, 5);
+
+$secondary-800: #12002b;
