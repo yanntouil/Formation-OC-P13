@@ -1,4 +1,4 @@
-# Project 9 - Utilisez une API pour un compte utilisateur bancaire avec React
+# Project 13 - Utilisez une API pour un compte utilisateur bancaire avec React
 
 ## Getting Started
 This project was bootstrapped with Create React App and use
@@ -111,7 +111,7 @@ Quelques heures plus tard, vous recevez l’e-mail suivant :
 > - La description de ce à quoi correspond l’endpoint (ex. : Retour de l'inventaire des animaux de compagnie)
 > - Les paramètres possibles pour tenir compte des différents scénarios (ex. : itemId (facultatif) = ID de l'article spécifique à demander à la base de données d'inventaire).
 > - Les différentes réponses avec les codes de réponse correspondants qui ont un sens pour cet endpoint (ex. : 404 : réponse d'erreur d'article inconnu).
-> Vous pouvez utiliser la page des transactions présentée dans les maquettes pour guider vos choix (mais vous n'avez pas besoin d'implémenter cette page). Assurez-vous simplement que le document est exporté vers un fichier YAML (c'est-à-dire Fichier > Enregistrer sous YAML) en utilisant la syntaxe Swagger, qui peut être exportée dans l'outil d'édition de Swagger.
+> Vous pouvez utiliser la page des transactions présentée dans les maquettes pour guider vos choix (mais vous n'avez pas besoin d'implémenter cette page). Assurez-vous simplement que le document est exporté vers un fichier YAML (c'est-à-dire Fichier > Enregistrer sous YAML) en utilisant la syntaxe Swagger, qui peut être exportée dans [l'outil d'édition de Swagger](https://editor.swagger.io/).
 > 
 > Nous ferons une revue de code et discuterons ensemble de la proposition d'API une fois que tout sera terminé.
 > 
@@ -120,6 +120,6 @@ Quelques heures plus tard, vous recevez l’e-mail suivant :
 > **Avery Moreau**
    
    
-> [ ℹ️ ] Vous remarquez que l'interface est en anglais. Même si vous n'êtes pas très à l'aise dans cette langue, vous vous dites que c'est l'occasion de pratiquer un peu ! C'est toujours bien pour un développeur de lire l'anglais, car la documentation professionnelle se fait souvent dans cette langue. Et Google Traduction est votre ami
+> ℹ️ Vous remarquez que l'interface est en anglais. Même si vous n'êtes pas très à l'aise dans cette langue, vous vous dites que c'est l'occasion de pratiquer un peu ! C'est toujours bien pour un développeur de lire l'anglais, car la documentation professionnelle se fait souvent dans cette langue. Et Google Traduction est votre ami
 
 Toutes ces informations en main, vous vous mettez au travail dès que possible !
