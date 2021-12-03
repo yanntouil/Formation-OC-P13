@@ -1,5 +1,5 @@
 import './App.scss';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'//HashRouter
+import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'//HashRouter
 import Home from './Pages/Home';
 import Layout from './Components/Layout/Layout';
 import Login from './Pages/Login';
@@ -30,6 +30,7 @@ export default function App() {
                         <Route path="/dashboard" exact element={
                             <AuthRoute redirectTo="/login" element={<DashboardIndex />} />
                         } />
+                        <Route path="*" element={<Navigate to={'/'} />}/>
                     </Routes>
                 </Layout>
             </Router>
