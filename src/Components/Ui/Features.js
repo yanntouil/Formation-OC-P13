@@ -1,5 +1,13 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
+
+
+/**
+ * Display features
+ * @param {string} srTitle
+ * @component
+ */
 export default function Features({ srTitle, children }) {
     return (
         <section className="features">
@@ -9,4 +17,8 @@ export default function Features({ srTitle, children }) {
             </div>
         </section>
     )
+}
+// Props types
+Features.propTypes = {
+    srTitle: propTypes.string,
 }

@@ -1,5 +1,11 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
+/**
+ * Display hero
+ * @param {string} srTitle
+ * @component
+ */
 export default function Hero({ srTitle, children }) {
     return (
         <div className="hero">
@@ -9,4 +15,8 @@ export default function Hero({ srTitle, children }) {
             </section>
         </div>
     )
+}
+// Props types
+Hero.propTypes = {
+    srTitle: propTypes.string,
 }

@@ -1,5 +1,14 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
+
+
+/**
+ * Display features item
+ * @param {string} picture
+ * @param {string} pictureAlt
+ * @component
+ */
 export default function FeaturesItem({ picture, pictureAlt, children }) {
     return (
         <div className="features-item">
@@ -7,4 +16,9 @@ export default function FeaturesItem({ picture, pictureAlt, children }) {
             {children}
         </div>
     )
+}
+// Props types
+FeaturesItem.propTypes = {
+    picture: propTypes.string,
+    pictureAlt: propTypes.string,
 }
